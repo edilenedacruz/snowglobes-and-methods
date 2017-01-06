@@ -12,7 +12,6 @@ class OrderTest < MiniTest::Test
   end
 
   def test_it_creates_an_order
-    skip
     snowglobe = Snowglobe.new({type: 'Prince If I Was Your Girlfriend'})
     inventory = Inventory.new
 
